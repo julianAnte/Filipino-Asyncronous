@@ -1,0 +1,82 @@
+/* Rotating */
+.anim.bob {
+	animation: Bobbing 1.5s ease-in-out infinite;
+}
+
+.anim.rotate {
+	animation: rotate 20s linear infinite;
+	transform-origin: center;
+	overflow: hidden;
+}
+
+.anim.pulse::before {
+	animation: pulse 2s linear infinite;
+}
+
+.typewritter {
+	font-size: 1.5rem;
+	margin-inline: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid;
+	animation: blink 1s step-end infinite;
+}
+
+/* KFs */
+@keyframes Bobbing {
+	from {
+		transform: translateY(2px);
+	}
+	50% {
+		transform: translateY(-2px);
+	}
+	to {
+		transform: translateY(2px);
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		--angle: 0deg;
+	}
+	to {
+		--angle: 360deg;
+	}
+}
+
+@keyframes pulse {
+	from,
+	to {
+		opacity: 50%;
+	}
+
+	50% {
+		opacity: 90%;
+	}
+}
+
+@keyframes typing {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}

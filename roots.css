@@ -1,0 +1,74 @@
+/* roots */
+:root {
+  /* font sizes */
+  --tiny: 0.1rem;
+  --extra-small: 0.5rem;
+  --small: 1rem;
+  --mid: 1.25rem;
+  --medium: 1.5rem;
+  --large: 2rem;
+  --title: 3rem;
+
+  /* border-radius sizes */
+  --smal-rounded: 0.5rem;
+  --rounded: 1rem;
+  --mid-rounded: 1.5rem;
+  --extra-rounded: 2rem;
+  --circle: 50%;
+
+  /* common padding sizes */
+  --padding-tiny: 0.1rem;
+  --padding-xsmall: 0.25rem;
+  --padding-small: 0.5rem;
+  --padding-regular: 0.75rem;
+  --padding-normal: 0.95rem;
+  --padding: 1rem;
+  --padding-mid: 1.25rem;
+  --padding-medium: 1.5rem;
+  --padding-semilarge: 2rem;
+  --padding-large: 3rem;
+  --padding-maybe: 4.5rem;
+  --padding-massive: 6.125rem;
+
+  /* negative paddings */
+
+  --padding-small-negative: -0.5rem;
+  --padding-regular-negative: -0.75rem;
+  --padding-normal-negative: -0.95rem;
+  --padding-negative: -1rem;
+  --padding-mid-negative: -1.25rem;
+  --padding-medium-negative: -1.5rem;
+  --padding-semilarge-negative: -2rem;
+  --padding-large-negative: -3.45rem;
+  --padding-maybe-negative: -4.5rem;
+  --padding-massive-negative: -6.125rem;
+
+  /* blur */
+  --blur-small: 0.25rem;
+  --blur-mid: 0.5rem;
+  --blur-big: 1rem;
+
+  /* opacity */
+  --transparent-ish: 10%;
+  --translucent-ish: 25%;
+  --translucent: 50%;
+  --opaque-ish: 75%;
+  --opaque: 100%;
+
+  /* global percentages */
+  --min: 0%;
+  --ten: 10%;
+  --quarter: 25%;
+  --thirty: 35%;
+  --half: 50%;
+  --sixty: 60%;
+  --third: 75%;
+  --eighty: 85%;
+  --max: 100%;
+
+  /* test attr */
+  --angle: 0deg;
+  --test: linear-gradient(rgb(162, 253, 162), rgb(98, 255, 98));
+  --base-hight: 1em;
+  --squared-hight: calc(var(--base-hight) * 4);
+}

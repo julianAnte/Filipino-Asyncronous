@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Tagalog&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,400..700;1,400..700&family=Stack+Sans+Headline:wght@200..700&display=swap");
+
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url(fonts/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Avigea", sans-serif;
+  src: url(fonts/avigea.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Newake", sans-serif;
+  src: url(fonts/NewakeFont-Demo.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Ranille", sans-serif;
+  src: url(fonts/Ranille.otf);
+}
+
+@font-face {
+  font-family: "Emilio", sans-serif;
+  src: url(fonts/emiliotest-regular.otf) format("opentype");
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 900 */
+
+.playfair-display-thin {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playfair-display-semibold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-extrabold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.playfair-display-black {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* italic playfair */
+
+.playfair-display-thin-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.playfair-display-regular-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.playfair-display-semibold-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.playfair-display-bold-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.playfair-display-extrabold-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.playfair-display-black-italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*  <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+.montserrat-thin {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.montserrat-extralight {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-semibold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-black {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* italic montserrat */
+
+.montserrat-thin-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.montserrat-extralight-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.montserrat-light-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.montserrat-regular-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-medium-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.montserrat-semibold-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.montserrat-bold-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.montserrat-extrabold-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.montserrat-black-italic {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.raleway-thin {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.raleway-extralight {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.raleway-light {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-regular {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-medium {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.raleway-semibold {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-extrabold {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.raleway-black {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.raleway-thin-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.raleway-extralight-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.raleway-light-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.raleway-regular-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.raleway-medium-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.raleway-semibold-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.raleway-bold-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.raleway-extrabold-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.raleway-black-italic {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.avigea-regular {
+  font-family: "Avigea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.avigea-bold {
+  font-family: "Avigea", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.avigea-regular-italic {
+  font-family: "Avigea", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.avigea-bold-italic {
+  font-family: "Avigea", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.newake {
+  font-family: "Newake", sans-serif;
+}
+
+.newake-italic {
+  font-family: "Newake", sans-serif;
+  font-style: italic;
+}
+
+.ranille {
+  font-family: "Ranille", sans-serif;
+  font-style: italic;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arimo-regular {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arimo-medium {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.arimo-semibold {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.arimo-bold {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arimo-regular-italic {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arimo-medium-italic {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.arimo-semibold-italic {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.arimo-bold-italic {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.stack-sans-headline-semibold {
+  font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
